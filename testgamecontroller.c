@@ -226,8 +226,6 @@ main(int argc, char *argv[])
         return 1;
     }
 
-    SDL_GameControllerAddMappingsFromFile("gamecontrollerdb.txt");
-
     /* Print information about the controller */
     for (i = 0; i < SDL_NumJoysticks(); ++i) {
         const char *name;
